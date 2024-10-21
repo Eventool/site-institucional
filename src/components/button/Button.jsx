@@ -1,10 +1,15 @@
-import styles from './Button.module.css';
+//import styles from './Button.module.css';
+import { DivButton, ButtonCadastrar, ButtonEntrar} from "./Button";
 
-const Button = ({txt, onClick}) => {
+
+
+const Button = () => {
     return (
-        <button onClick={onClick}>
-            {txt}
-        </button>
+    <DivButton> 
+      <ButtonEntrar>Entrar</ButtonEntrar>
+      <ButtonCadastrar>Cadastrar</ButtonCadastrar>
+    </DivButton>
+                    
     )
 }
 

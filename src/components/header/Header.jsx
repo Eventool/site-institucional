@@ -1,18 +1,18 @@
-import React from 'react';
-import styles from './Header.module.css';
-import Button from '../button/Button';
+//import { Button, ButtonGroupContext } from '@mui/material';
+import Logo from '../Logo/Logo.jsx';
+import Menu from '../menu/Menu.jsx';
+import { Header } from './Header.js';
+import Button from '../button/Button.jsx';
 
-const Header = () => {
-    return(
-        <header>
-            <p>Serenity</p>
-            <ul className={styles.navItens}>
-                <li>Sobre nós</li>
-                <li>Objetivos</li>
-                <li>Cases</li>
-            </ul>
-        </header>
+
+const HeaderComponent = () => {
+    return (
+        <Header>
+            <Logo />
+            <Menu />
+            <Button/>
+        </Header>
     )
 }
 
-export default Header;
+export default HeaderComponent;
