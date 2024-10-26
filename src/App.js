@@ -2,17 +2,17 @@
 // import Home from '../src/pages/Home';
 import Footer from './components/Footer/Footer.jsx';
 import HeaderComponent from './components/header/Header.jsx';
-import Section from './components/Section/Section.jsx';
-import Section2 from './components/Section2/Section2.jsx';
-import Section3 from './components/Section3/Section3.jsx';
-import Section4 from './components/Section4/Section4.jsx'
-
+import Section from './components/Home/Section.jsx';
+import Section2 from './components/SobreNos/Section2.jsx';
+import Section3 from './components/Objetivos/Section3.jsx';
+import Section4 from './components/Cases/Section4.jsx';
 
 
 function App() {
   return (
     <>
-      <HeaderComponent />
+   
+    <HeaderComponent />
       <Section />
       <Section2 />
       <Section3 />

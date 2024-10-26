@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
+
 const Secao = styled.div`
-  height: 898px;
+  height: 999px;
   width: 100%;
-  background-image: url(${(props) => props.backgroundImage});
+  background-image: url(${(props) => props.backgroundimage});
   background-size: cover;
   background-position: center;
   position: relative; /* Necessário para posicionar o conteúdo sobreposto */
@@ -27,43 +28,50 @@ const Overlay = styled.div`
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 2; /* Certifica que o overlay e seu conteúdo estão à frente */
-  background-color: rgba(255, 255, 255, 0.8); /* Ajuste a opacidade para dar contraste ao texto */
+  z-index: 2; 
   flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
 
 const SectionContainer = styled.section`
-  padding: 40px 20px;
-  background-color: #f8f8f8;
+  padding: 1px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #010041;
+  border-radius: 15px;
+  margin-top: 2%;
+  height: 75%;
+  width: 75%;
 `;
 
 // Estilo para a parte superior (Missão, Valores, Objetivo)
 const TopContainer = styled.div`
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-top: -170px;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 99px;
+  margin-bottom: 40px;
+  height: 29%;
 `;
 
 // Bloco de conteúdo individual (Missão, Valores, Objetivo)
 const InfoCard = styled.div`
-  background-color: #001F54;
+  background-color: #010041;
   color: white;
-  padding: 20px;
+  padding: 54px;
   border-radius: 10px;
   width: 250px;
   text-align: center;
+  height: 80%;
 `;
 
 const InfoTitle = styled.h3`
   font-size: 18px;
   margin-bottom: 10px;
+
 `;
 
 const InfoDescription = styled.p`
@@ -73,8 +81,8 @@ const InfoDescription = styled.p`
 
 // Título dos Serviços
 const ServicesTitle = styled.h2`
-  font-size: 24px;
-  color: #001F54;
+  font-size: 28px;
+  color: #ffffff;
   margin-bottom: 20px;
   text-align: center;
 `;
@@ -84,9 +92,9 @@ const ServicesGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  max-width: 1000px;
-  background-color: #001F54;
-  padding: 30px;
+  max-width: 1316px;
+  height: 80%;
+  background-color: #010041;
   border-radius: 10px;
   color: white;
 `;
@@ -95,6 +103,7 @@ const ServicesGrid = styled.div`
 const ServiceCard = styled.div`
   display: flex;
   flex-direction: column;
+  padding-bottom: 17px;
   align-items: center;
   text-align: center;
 `;
@@ -114,6 +123,20 @@ const ServiceDescription = styled.p`
   line-height: 1.5;
 `;
 
+const ServiceTitleDiv = styled.div`
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom: 20px;
+
+`
+const ServiceSubTitleDiv = styled.div`
+ color: #ffffff;
+ font-size: 24px;
+ padding-bottom: 20px;
+ gap: 10px;
+`
+
 export {
   Secao,
   Overlay,
@@ -127,5 +150,8 @@ export {
   ServiceCard,
   ServiceIcon,
   ServiceTitle,
-  ServiceDescription
+  ServiceDescription,
+  ServiceTitleDiv,
+  ServiceSubTitleDiv,
+  
 };

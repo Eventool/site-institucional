@@ -22,7 +22,7 @@ import QrCode from '../../assets/img/qrcode.png';
 const Footer = () => {
   return (
     <>
-      <FooterDiv>     
+    <FooterDiv>     
       <div>
         <Titulo1>Contatos <br></br> ________________</Titulo1>
         <Paragrafo><b>Telefone:</b> (11) 3456-7980</Paragrafo>

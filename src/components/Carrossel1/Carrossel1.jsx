@@ -10,7 +10,7 @@ import ImagemFundo from  '../../assets/img/man-working-night.jpg'
 const SectionCarrossel1 = () => {
     return (
         <>
-            <Secao backgroundImage={ImagemFundo}>
+            <Secao backgroundimage={ImagemFundo}>
                 <Overlay>
                 <Container>
                     <Title>Visualização simples e eficiente dos Eventos</Title>

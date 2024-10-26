@@ -6,7 +6,7 @@ import ImagemDeFundo from '../../assets/img/pexels-pixabay-50675.jpg';
 const Section = () => {
     return (
         <>
-            <Secao backgroundImage={ImagemDeFundo}>
+            <Secao backgroundimage={ImagemDeFundo} id="home">
                 <Overlay>
                     <Content>
                     <Title>O equilíbrio ideal entre<br/> 

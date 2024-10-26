@@ -10,7 +10,7 @@ import ImagemFundo from  '../../assets/img/team-working-together-project.jpg'
 const SectionCarrossel2 = () => {
     return (
         <>
-            <Secao backgroundImage={ImagemFundo}>
+            <Secao backgroundimage={ImagemFundo}>
                 <Overlay>
                 <Container>
                     <Title>Gerenciamento de equipes e perfis</Title>

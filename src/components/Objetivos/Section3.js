@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const SessaoCarrossel = styled.div`
     width: 100vw;
     height: 100vh;
@@ -99,5 +100,6 @@ export {
     SwiperSlideImage,
     SwiperPaginationBullet,
     SwiperButtonPrev,
-    SwiperButtonNext
+    SwiperButtonNext,
+    SectionContainer
 };

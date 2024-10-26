@@ -11,7 +11,7 @@ import ImagemFundo from '../../assets/img/planner-calendar-schedule-date-concept
 const Section2 = () => {
     return (
         <>
-    <Secao2 backgroundImage={ImagemFundo}>
+    <Secao2 backgroundimage={ImagemFundo}>
         <Overlay>
         <Container>
                 <Title>Planejamento e organização aprimorados</Title>

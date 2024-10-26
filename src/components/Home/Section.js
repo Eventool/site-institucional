@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const Secao = styled.div`
-    height: 888px;
+    height: 999px;
     width: 100%;
-    background-image: url(${(props) => props.backgroundImage});
+    background-image: url(${(props) => props.backgroundimage});
     background-size: cover;
     background-position: center;
     position: relative; /* Para que o overlay funcione */
@@ -30,6 +30,7 @@ const Button = styled.button`
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-top: 20px;
+  
 
   &:hover {
     background-color: #F95A00;

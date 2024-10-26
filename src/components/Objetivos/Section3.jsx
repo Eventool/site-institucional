@@ -28,18 +28,22 @@ const Section3 = () => {
     };
 
     return (
-        <Carousel 
+        <div id="objetivos">
+             <Carousel 
             responsive={responsive} // muita atenção a essa propriedade. É ela que diz qual será o tamanho/quantos itens por tela no carrossel
-            autoPlay={true}
+            autoPlay={false}
             autoPlaySpeed={2000}
             transitionDuration={500}
             showDots={false}
-        >
+         >
             {/* Todas as sections que deseja colocar, é só adicionar embaixo */}
             <Carrossel1 />
             <Carrossel2 />
             <Carrossel3 />
         </Carousel>
+        </div>
+        
+    
     )
 }
 

@@ -4,7 +4,7 @@ const DivButton = styled.div`
   width: 9%;
   height: 100%;
   display: flex;
-  margin-left: 7%;
+  margin-left: 13%;
   align-items: center;
   gap: 27px;
 

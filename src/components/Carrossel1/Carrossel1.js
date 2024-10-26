@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Secao = styled.div`
     height: 100%;
     width: 100%;
-    background-image: url(${(props) => props.backgroundImage});
+    background-image: url(${(props) => props.backgroundimage});
     background-size: cover;
     background-position: top center;
     position: relative; /* Para que o overlay funcione */
