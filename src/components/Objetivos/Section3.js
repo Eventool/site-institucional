@@ -59,14 +59,14 @@ export const ContainerCarrosel = styled.div`
 export const SwiperSlideImage = styled.img`
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Garante que a imagem cubra o espaço */
+    object-fit: cover; 
 `;
 
 export const SwiperPaginationBullet = styled.span`
     background-color: #fff; /* Cor das bolinhas */
     opacity: 0.6;
     &.swiper-pagination-bullet-active {
-        background-color: #ff6700; /* Cor da bolinha ativa */
+        background-color: #ff6700; 
         opacity: 1;
     }
 `;
@@ -76,7 +76,7 @@ export const SwiperButtonPrev = styled.div`
     width: 50px;
     height: 50px;
     &:hover {
-        color: #ff6700; /* Cor ao passar o mouse sobre as setas */
+        color: #ff6700; 
     }
 `;
 
@@ -85,7 +85,7 @@ export const SwiperButtonNext = styled.div`
     width: 50px;
     height: 50px;
     &:hover {
-        color: #ff6700; /* Cor ao passar o mouse sobre as setas */
+        color: #ff6700; 
     }
 `;
 
@@ -101,5 +101,4 @@ export {
     SwiperPaginationBullet,
     SwiperButtonPrev,
     SwiperButtonNext,
-    SectionContainer
 };
