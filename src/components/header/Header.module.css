@@ -1,0 +1,12 @@
+.navItens {
+    list-style: none;
+}
+
+.navItens li {
+    font-weight: normal;
+    font-size: 17px;
+    font-weight: 0;
+}
+
+
+
